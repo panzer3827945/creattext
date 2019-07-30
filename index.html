@@ -1,0 +1,115 @@
+<!doctype html>
+<html class="imageBg">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="a collection of songs that I love, also shows how to sync lyric with HTML5 audio tag">
+        <meta name="author" content="Wayou">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>精選</title>
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/min_style.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.js"
+              integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+              crossorigin="anonymous"></script>
+       <script src="scripts/menu.js"></script>
+    </head>
+    <body>
+
+         
+                  <div  id="zenbu">
+
+
+
+
+            <!-- ... 歌詞 ... -->
+
+            <div id="lyricWrapper">
+
+                <div id="lyricContainer">  
+                </div>
+            </div>
+           <!-- ... 歌詞 ... -->
+
+          
+                    <!-- ... 選單 ... -->
+
+                    <div id="playlist"  class="playlist" >   
+                <ol class="musics"></ol>              
+                <div class="info">
+                    <div class="bg" id="bg_dark" title="use color for background"></div>
+                    <div class="bg" id="bg_pic" title="use image for background"></div>                 
+                </div>
+                <button class="sidebarBtn" >
+                 <span></span>
+                </button>
+                
+            </div>
+
+                  <!-- ... 選單 ... -->
+
+
+                      
+                  </div>
+
+
+
+
+          
+
+
+ <!-- ... 撥放器佔位子 ... -->
+        <div class="wrapper" style="display: none;">
+            <div id="player">
+                <audio controls id="audio" src="./content/songs/na_ge.mp3">!audio not supported :</audio>
+            </div>
+                 </div>
+
+         <!-- ... 撥放器佔位子 ... -->
+
+
+   
+
+
+ <!-- ... 撥放器 ... --><div id="very" >
+
+          <div class="progress">
+              <span class="start"></span>
+              <div class="progress-bar">
+              <div class="now"></div>
+              </div>
+              <span class="end"></span>
+          </div>
+                <div id="ibaimono">
+                   <img src="icon/osoisong.png" alt="" id="nofast">
+                   <img src="icon/Skip_pre.png" alt="" id="Skip_pre">
+                   <img src="icon/Play.png" id="obtn" alt=""> 
+                   <img src="icon/Skip_Next.png" alt="next_song"id="next_song" >
+                   <img src="icon/fastsong.png" alt="" id="fast">
+                   <img src="icon/shitavolume.png" id="small"alt="">
+                   <img src="icon/up volume.png" id="big"  alt="">
+                </div> </div> 
+                 <!-- ... 撥放器 ... -->
+
+      
+
+        <!-- ... 開始暫停 ... -->
+        
+
+        
+
+        <script src="scripts/selected.js"></script>
+        <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+                ga('create', 'UA-46794744-6', 'wayou.github.io');
+                ga('send', 'pageview');
+
+
+
+
+        </script>
+    </body>
+</html>

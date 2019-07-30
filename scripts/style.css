@@ -1,0 +1,141 @@
+.voice-read{
+	border-top: 1px solid #dbdbdb;
+	margin-top: 15px;
+	
+	height: 65px;
+	
+	width: 100px;
+}
+
+audio{
+	width: 270px;
+}
+
+
+.flex-start{
+	justify-content: flex-start !important;
+}
+
+
+.fake-control{
+	position: relative;
+	top: 4px;
+	width: 100%;
+}
+
+.fake-control-timeline{
+	float: left;
+}
+
+.play-icon{
+  font-size:14px;
+}
+
+.voice-title{
+	margin-right: 15px;
+	float: left;
+	font-size: 13px;
+}
+
+.voice-container{
+	float: left;
+	width: 250px;
+  margin:20px;
+}
+
+.timeline{
+	height: 4px;
+  width: 100px;
+  background-color: #D8D8D8;
+  
+  margin-right: 15px;
+  position: relative;
+  top: -3px;
+}
+
+.play-time{
+	// margin-right: 33px;
+	font-size: 12px;
+}
+
+.playhead{
+	background-color: #49a9ee;
+	width: 13px;
+	height: 13px;
+	border-radius: 50px;
+	position: relative;
+	top: -4px;
+}
+
+.voice-control{
+	position: relative;
+	top: -2px;
+	
+	float: right;
+}
+
+.voice-read-outside{
+	width: 100%;
+}
+
+
+.clearfix:before,
+.clearfix:after{ 
+    content:""; 
+    display:table; 
+} 
+.clearfix:after{clear:both;} 
+.clearfix{
+    clear: both;
+}
+
+.inline-block{
+	display: inline-block;
+}
+
+.float-right{
+	float: right;
+}
+.float-left{
+	float: left;
+}
+
+.height-0{
+	height: 0;
+}
+
+/**
+ * 居中
+ */
+
+
+
+
+.center-father-style{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	
+}
+
+.center-father-style-align{
+	display: flex;
+	align-items: center;
+}
+
+.center-father-style-justify{
+	display: flex;
+	justify-content: center;
+}
+
+.direction-row-reverse{
+	flex-direction :row-reverse;
+}
+
+
+.font-style{
+  font-size:13px;
+  padding:10px 10px 0  10px;
+  
+}
